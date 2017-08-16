@@ -17,8 +17,8 @@ sc = SlackClient(slack_token)
 
 timeStamp = load_obj('timeStamp')
 
-chatName = input('Enter chat name (general, dmChat): ')
-channels = {'general' : 'C054NCKDB', 'dmChat' : 'G6N5DJ7J7'}
+chatName = input('Enter chat name (general): ')
+channels = {'general' : 'C054NCKDB'}
 while True:
     chat = input('Enter chat: ')
     if chat == 'deleteAll':
